@@ -20,3 +20,4 @@ EXPOSE 5050
 
 # Set the entry point
 ENTRYPOINT ["dotnet", "NoteApp.dll"]
+
