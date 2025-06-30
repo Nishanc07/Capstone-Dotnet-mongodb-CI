@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         SCANNER_HOME = tool 'sonar-scanner'
-        IMAGE_TAG = "v${env.BUILD_NUMBER}"
+        IMAGE_TAG = "${env.BUILD_NUMBER}"
     }
 
     stages {
